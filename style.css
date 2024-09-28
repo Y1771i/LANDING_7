@@ -1,3 +1,4 @@
+/* Страница 1  */
 *{
       padding: 0;
       margin: 0;
@@ -11,16 +12,18 @@ section{
       padding: calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
 }
 
-section.hello{
+section.page_1{
       padding-top: 40px;
-      background-image: url(../LANDING_7/img/html_css_js\ 1.png);
+      background-image: url(./img/html_css_js\ 1.png);
       background-repeat: no-repeat;
       background-position: top 55px right 40px;
-      background-size: 30%;
+      background-size: 25%;
 }
+
 .logo{
       height: calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375)));
 }
+
 .courseInfo{
       display: flex;
       gap: 30px 160px;
@@ -36,8 +39,9 @@ section.hello{
 .courseData .value{
       font-weight: 700;
 }
+
 h1{
-      font-family: "Chava", sans-serif;
+      font-family: 'Chava', sans-serif;
       font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
       line-height: 110%;
 }
@@ -74,40 +78,79 @@ button.purple{
 button.white{
       background: white;
       color:#6E3ABA     ;
-      border: 1px solid #6E3ABA;;
+      border: 1px solid #6E3ABA;
 }
 
+/* Страница 2 */
 
-
-.container {
-      max-width: 1200px;
+.page_2 {
+      max-width: 1100px;
       margin: 0 auto;
-      text-align: center;
+      padding: 20px;
 }
 
-h1 {
-      font-size: 32px;
+h2 {
+      font-size: 2.5rem;
       margin-bottom: 20px;
 }
 
+.container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+}
+
 .card {
-      background-color: white;
+      margin: 10px;
       padding: 20px;
-      text-align: center;
+      text-align: flex-start;
+      max-width: 400px;
 }
 
 .card img {
       width: 100px;
       height: 100px;
+      border-radius: 50%;
       margin-bottom: 15px;
 }
 
-.card h2 {
+.card h3 {
       font-size: 20px;
       margin-bottom: 10px;
 }
 
-.card p {
-      font-size: 16px;
-      color: #555;
+p {
+      font-size: 1rem;
+      line-height: 1.5;
 }
+
+
+/* Страница 3  */
+
+.saleContiner{
+      background-color:#6E3ABA;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: calc(4.4vw + 23px) 0 calc(5.3vw + 20px);
+}
+.saleContiner h3{
+      color: white;
+      font-size: calc(2vw + 26.5px);
+      margin-bottom: calc(4.1vw + 4.7px) ;
+}
+.time{
+      display: flex;
+      gap: 85px;
+}
+.date{
+      font-size: calc(12.6vw + 12.8px);
+      font-family: 'Chava', sans-serif;
+}
+.timeCard span{
+      text-align: center;
+      display: block;
+      font-size: calc(1.9vw + 3px);
+}
+
