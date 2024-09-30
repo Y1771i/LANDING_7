@@ -1,0 +1,38 @@
+
+h2 {
+      font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+      font-weight: 500;
+      margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+      text-transform: uppercase;
+      line-height: 117%;
+}
+
+.infoKurs h2 {
+      width: calc(35.6vw + 194.6px);
+}
+
+.story {
+      display: flex;
+      flex-wrap: wrap;
+      gap: calc(40px + (52 - 40) * ((100vw - 375px) / (1280 - 375))) 70px;
+}
+
+.speciality {
+      width: calc(328px + (450 - 328) * ((100vw - 375px) / (1280 - 375)));
+      font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 140%;
+}
+
+.pic {
+      width: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+      margin-bottom: 10px;
+}
+
+.name {
+      font-weight: 600;
+}
+
+.info {
+      font-weight: 400;
+      margin-top: calc(10px + (20 - 10) * ((100vw - 375px) / (1280 - 375)));
+}
