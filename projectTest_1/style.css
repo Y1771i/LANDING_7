@@ -17,7 +17,7 @@ section {
 /* Page 1 */
 section.hello {
       padding-top: 40px;
-      background-image: url('../img/html_css_js\ 1.png');
+      background-image: url('./img/html_css_js.png');
       background-repeat: no-repeat;
       background-position: top calc(77px + (121 - 77) * ((100vw - 375px) / (1280 - 375))) left calc(193px + (827 - 193) * ((100vw - 375px) / (1280 - 375)));
       background-size: calc(179px + (395 - 179) * ((100vw - 375px) / (1280 - 375)));
@@ -382,7 +382,7 @@ h4 {
       gap: 30px;
 }
 
-.slayd10 h2 {
+.Box10 h2 {
       margin-bottom: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
 }
 
@@ -429,9 +429,160 @@ h4 {
       font-weight: 400;
 }
 
+/* Page 11 */
+.BoxUs h2{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+}
+.about {
+      display: block;
+      align-items: flex-start;
+}
 
 
-@media (max-width: 600px) {
+/* Page 13 */
+.Disko h2 {
+      margin-bottom: 0;
+}
+
+.Disko p {
+      margin: 14px 0 24px;
+      font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 150%;
+      font-weight: 400;
+}
+
+.Disko1 {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      gap: 30px;
+}
+
+.Disko1 img {
+      width: calc(328px + (506 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+/* Page 14 */
+.LastBox {
+      display: flex;
+      flex-wrap: wrap;
+      background: #222222;
+      gap: 0 140px;
+      margin-bottom: 0;
+}
+.div {}
+
+.LastBox_1 {
+      display: flex;
+      flex-direction: column;
+}
+
+.LastBox_1 h2 {
+      color: #FFFFFF;
+      margin-top: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+      width: calc(330px + (424 - 330) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.Box_2 {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      color: #FFFFFF;
+}
+
+.LastS img {
+      width: 28px;
+      margin-right: 20px;
+}
+
+.LastS span {
+      font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+      line-height: 150%;
+}
+
+.Select {
+      background: #FFFFFF;
+      width: calc(327px + (475 - 327) * ((100vw - 375px) / (1280 - 375)));
+      height: calc(529px + (600 - 529) * ((100vw - 375px) / (1280 - 375)));
+      border-radius: 12px;
+      margin-top: calc(88px + (100 - 88) * ((100vw - 375px) / (1280 - 375)));
+      margin-bottom: calc(60px + (80 - 60) * ((100vw - 375px) / (1280 - 375)));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+}
+
+.form2 {
+      width: calc(267px + (328 - 267) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.form2 h4 {
+      text-transform: uppercase;
+      font-size: 26px;
+      text-align: center;
+}
+
+.form2 input {
+      display: block;
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid #a1a1a1;
+      outline: 0;
+      background: transparent;
+      font-size: 18px;
+      line-height: 27px;
+      padding: 10px 0;
+}
+
+.form2 button {
+      margin-top: 30px;
+}
+
+#saleImg {
+      width: calc(105px + (160 - 105) * ((100vw - 375px) / (1280 - 375)));
+      position: absolute;
+      top: -80px;
+      left: -80px;
+}
+
+#p1 {
+      margin-bottom: 30px;
+      width: 100%;
+      opacity: 1;
+}
+
+#p2 {
+      font-weight: 600;
+      margin-top: 40px;
+}
+
+.Select p {
+      width: calc(271px + (340 - 271) * ((100vw - 375px) / (1280 - 375)));
+      margin-top: 10px;
+      font-size: 18px;
+      line-height: 21.2px;
+      text-align: center;
+      font-weight: 400;
+      opacity: 0.5;
+      line-height: 21.2px;
+}
+
+.b2 {
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+}
+
+.Select span {
+      font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+      text-align: center;
+}
+
+
+@media (max-width: 700px) {
       .mobile {
             display: block !important;
       }
@@ -455,5 +606,12 @@ h4 {
 
       .column_1 {
             grid-row: 2 / 3;
+      }
+
+
+      #saleImg {
+            top: -52px;
+            left: auto;
+            right: -20px;
       }
 }
